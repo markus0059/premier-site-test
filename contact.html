@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>contact the Royal Kingdom</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="/assets/cou.png" />
+  </head>
+  <body>
+    <header>
+      <ul>
+        <img
+          src="/assets/cou.png"
+          alt="Logo"
+          class="logo"
+          width="50"
+          height="50"
+        />
+        <li><a href="/index.html">About</a></li>
+        <li><a href="/family.html">Royal Family</a></li>
+        <li><a href="/assets-family.html">Royal Assets</a></li>
+        <li><a href="/contact.html">Contact Us</a></li>
+        <!-- Navigation Section-->
+      </ul>
+    </header>
+    <h2>Contact the Royal Kingdom</h2>
+
+    <p>Fill in the form below to contact the Royal Kingdom</p>
+    <section id="contact">
+      <form id="contactForm">
+        <label for="name">Name</label><br />
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your Name"
+        /><br />
+        <label for="email">Email</label><br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+        /><br />
+        <label for="message">Message</label><br />
+        <textarea
+          cols="232"
+          rows="10"
+          id="message"
+          name="message"
+          placeholder="Saisissez votre texte ici"
+        ></textarea>
+        <br /><br />
+        <div class="valide">
+          <input type="submit" value="Submit" />
+        </div>
+      </form>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
